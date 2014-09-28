@@ -1,0 +1,2 @@
+serviceClass: th.ac.utcc.MeahongsonProject.client.GreetingService
+path: 5D2DEBBEF2AB929543C360B1CAB4A6B2.gwt.rpc
