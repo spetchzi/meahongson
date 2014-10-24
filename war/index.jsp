@@ -52,9 +52,9 @@
    <img id="img" src = "images/im18.png">
 </header>
 
+<marquee behavior="scroll" scrolldelay="150"><div id="result"></div> </marquee>
 
-<section id=""> 
-
+<section> 
 <div class="row">
   <div class="col-md-4">
     <div class="panel panel-default">
@@ -107,6 +107,22 @@
 <script>
 $(document).ready(function (){
     $(".tool").tooltip();
+});
+</script>
+<script>
+$(document).ready(function(){
+  $(".tool").tooltip();
+
+  var xmlhttp = new XMLHttpRequest();//สร้าง object 
+	xmlhttp.onreadystatechange=function(){ //จับ event พอเกิด event ให้เรียก functionไม่มีชื่อ
+		if(xmlhttp.readyState==4 && xmlhttp.status==200){
+			document.getElementById("result").innerHTML = xmlhttp.responseText;//ใช่ domเข้าถึง <div>ผ่าน ID=resultโดยต้องการเปลี่ยนค่าที่ <div>
+		}
+	}
+	var url = "loadtext.jsp";
+	//เปิด connection
+	xmlhttp.open("GET",url,true);
+	xmlhttp.send();
 });
 </script>
 </body>

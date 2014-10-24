@@ -35,11 +35,11 @@ and open the template in the editor.
 
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="index.jsp"><span class="glyphicon glyphicon-globe"></span>&nbsp;หน้าแรก</a></li>
+                <li><a href="index.jsp"><span class="glyphicon glyphicon-globe"></span>&nbsp;หน้าแรก</a></li>
                 <li><a><span class="glyphicon glyphicon-list-alt"></span>&nbsp;เกี่ยวกับเรา</a></li>
                 <li><a><span class="glyphicon glyphicon-plane"></span>&nbsp;สถานที่ท่องเที่ยว</a></li>
                 <li><a><span class="glyphicon glyphicon-cutlery"></span>&nbsp;แนะนำอาหาร</a></li>
-                <li><a href="gname.jsp"><span class="glyphicon glyphicon-user"></span>&nbsp;คณะผู้จัดทำ</a></li>
+                <li  class="active"><a href="gname.jsp"><span class="glyphicon glyphicon-user"></span>&nbsp;คณะผู้จัดทำ</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
             <%

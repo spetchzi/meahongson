@@ -6,7 +6,7 @@
  
  //Query DB
   String dbUsername = "petch";
-  String dbPassword = "0909890195";
+  String dbPassword = "1234";
   String firstname = "sirinan";
   
   if(strname.equals(dbUsername) && strpass.equals(dbPassword)){
