@@ -36,8 +36,7 @@ and open the template in the editor.
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
                 <li><a href="index.jsp"><span class="glyphicon glyphicon-globe"></span>&nbsp;หน้าแรก</a></li>
-                <li><a><span class="glyphicon glyphicon-list-alt"></span>&nbsp;เกี่ยวกับเรา</a></li>
-                <li><a><span class="glyphicon glyphicon-plane"></span>&nbsp;สถานที่ท่องเที่ยว</a></li>
+                <li><a href="tourism.jsp"><span class="glyphicon glyphicon-plane"></span>&nbsp;สถานที่ท่องเที่ยว</a></li>
                 <li><a><span class="glyphicon glyphicon-cutlery"></span>&nbsp;แนะนำอาหาร</a></li>
                 <li  class="active"><a href="gname.jsp"><span class="glyphicon glyphicon-user"></span>&nbsp;คณะผู้จัดทำ</a></li>
             </ul>
@@ -63,7 +62,7 @@ and open the template in the editor.
 <div class="jumbotron">
 <div class="row">
 <div class="col-md-4">
-    <center><img class="img-responsive img-portfolio img-hover" src="images/aa1.jpg" alt=""></center>
+    <center><img class="img-responsive img-portfolio img-hover" src="images/aa2.jpg" alt=""></center>
 </div>
 <div class="col-md-8">
 <p><u>ประวัติ ข้อมูลผู้จัดทำ</u></p>
@@ -78,19 +77,6 @@ and open the template in the editor.
 </div>
 </div>
 
-
-<br><br>
-<div class="jumbotron">
- <div class="row">
-<div class="col-md-4">
-    <center><img class="img-responsive img-portfolio img-hover" src="images/a6.jpg" alt=""></center>
-</div>
-<div class="col-md-8">
-<p><u>ประวัติ ข้อมูลผู้จัดทำ</u></p>
-<p>นางสาวกัญนิกา  ชาภู่พวง </p>
-</div>
-</div>
-</div>
 </section>
 
 
