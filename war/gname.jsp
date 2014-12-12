@@ -37,8 +37,8 @@ and open the template in the editor.
             <ul class="nav navbar-nav">
                 <li><a href="index.jsp"><span class="glyphicon glyphicon-globe"></span>&nbsp;หน้าแรก</a></li>
                 <li><a href="tourism.jsp"><span class="glyphicon glyphicon-plane"></span>&nbsp;สถานที่ท่องเที่ยว</a></li>
-                <li><a><span class="glyphicon glyphicon-cutlery"></span>&nbsp;แนะนำอาหาร</a></li>
-                <li  class="active"><a href="gname.jsp"><span class="glyphicon glyphicon-user"></span>&nbsp;คณะผู้จัดทำ</a></li>
+                <li><a href="food.jsp"><span class="glyphicon glyphicon-cutlery"></span>&nbsp;แนะนำอาหาร</a></li>
+                <li class="active"><a href="gname.jsp"><span class="glyphicon glyphicon-user"></span>&nbsp;คณะผู้จัดทำ</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
             <%

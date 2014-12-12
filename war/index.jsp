@@ -30,7 +30,7 @@
             <ul class="nav navbar-nav">
                 <li class="active"><a href="index.jsp"><span class="glyphicon glyphicon-globe"></span>&nbsp;หน้าแรก</a></li>
                 <li><a href="tourism.jsp"><span class="glyphicon glyphicon-plane"></span>&nbsp;สถานที่ท่องเที่ยว</a></li>
-                <li><a><span class="glyphicon glyphicon-cutlery"></span>&nbsp;แนะนำอาหาร</a></li>
+                <li><a href="food.jsp"><span class="glyphicon glyphicon-cutlery"></span>&nbsp;แนะนำอาหาร</a></li>
                 <li><a href="gname.jsp"><span class="glyphicon glyphicon-user"></span>&nbsp;คณะผู้จัดทำ</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
@@ -50,7 +50,7 @@
 <header >
    <img id="img" src = "images/im18.png">
 </header>
-<marquee behavior="scroll" scrolldelay="150"><div id="result"></div> </marquee>
+<marquee behavior="scroll" scrolldelay="150" ><div id="result"></div> </marquee>
 
 <center>
 <div style="visibility:visible;width:950px;margin:auto;"><embed src="http://flash.picturetrail.com/pflicks/3/spflick.swf" quality="high" FlashVars="ql=2&src1=http://pic100.picturetrail.com:80/VOL1625/12779318/flicks/1/9051502" wmode="transparent" bgcolor="#000000" width="950" height="410" name="Revolution" align="middle" allowScriptAccess="sameDomain" style="height:410px;width:950px" type="application/x-shockwave-flash"></embed>
